@@ -114,8 +114,8 @@ function TaskList({
                     <p>{task.description}</p>
 
                     {(filter === "all" || filter === "pending") && (
-                      <div>
-                        <i>Created: {task.date}</i>
+                      <div className="date">
+                        <i >Created: {task.date}</i>
                       </div>
                     )}
 
